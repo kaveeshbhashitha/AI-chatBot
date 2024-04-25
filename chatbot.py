@@ -138,7 +138,7 @@ def send():
             tts.setProperty('rate', 175)
             setvoice()
  
-# -------------------------------------------------my part included by me----------------------------------------------
+
 tts = pyttsx3.init()
 def printInput():
     text = inputtxt2.get(1.0, "end-1c")
@@ -164,13 +164,13 @@ def printInput():
             tts.setProperty('rate', 175)
             setvoice()
 #----------------------------------------------------------------------------------------------------------------------
-screen = Tk()                       #Create object 
-screen.title("ChatBot")             #rename the window
-screen.geometry('1000x550+300+200') #Resize the window
-screen.config(bg='white')           #assign background color
+screen = Tk()                       
+screen.title("ChatBot")             
+screen.geometry('1000x550+300+200') 
+screen.config(bg='white')           
 
-logo_image = PhotoImage(file="iconbot.png")     #create icon object and set file path
-screen.iconphoto(False, logo_image)             #Change icon image
+logo_image = PhotoImage(file="iconbot.png")   
+screen.iconphoto(False, logo_image)            
 
 #First lable
 lbl1 = Label(screen, text='Ask anything from me..!', font=('calibri', 12), bg='white').place(x = 20, y = 80)
@@ -202,15 +202,6 @@ lbl1 = Label(screen, text='Collect your answer from me..!', font=('calibri', 12)
 inputtxt1 = Text(screen, font=('calibri', 12), height = 6, width = 75, bg="#eee", border=0)
 inputtxt1.place(x = 375, y = 390)
 
-# inputtxt1.config(state=DISABLED)
 
-# #Bind scrollbar to Chat window
-# scrollbar = Scrollbar(screen, command=inputtxt1.yview, cursor="heart")
-# inputtxt1['yscrollcommand'] = scrollbar.set
-
-#printButton1 = Button(screen,text = "Hear me", font=('calibri', 12), command = printInput, width=15, height=2,border=0, bg='#1F456E', fg='white', cursor='hand2')
-#printButton1.place(x = 850, y = 330)
 
 screen.mainloop()
-
-# 71, 88, 89 have break points

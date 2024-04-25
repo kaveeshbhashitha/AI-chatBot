@@ -12,6 +12,7 @@ from playsound import playsound
 import speech_recognition as sr
 import pyttsx3
 
+#newly commented file
 root = tk.Tk()
 root.title('Welcome to chatBot')
 root.geometry('1100x691+300+200')
