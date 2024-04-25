@@ -1,0 +1,428 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "good day",
+                "greetings",
+                "Whats up",
+                "how is it going"
+            ],
+            "responses":[
+                "hello",
+                "hey",
+                "whats can i do for you",
+                "Hi there", 
+                "How are you", 
+                "Is anyone there?",
+                "Hey",
+                "Hola", 
+                "Hello", 
+                "Good day"
+            ]
+        },
+        {
+            "tag":"Bloodreport",
+            "patterns":[
+                "Can I get blood report ?",
+                "When is blood report available?",
+                "Tell place can get the blood report?",
+                "How much  blood report?"
+            ],
+            "responses":[
+                "Yes", "available at 3pm to 50pm", 
+                "Through the first counter on the ground floor", 
+                " It costs Rs 500"
+            ]
+        },
+        {
+            "tag":"Washroom",
+            "patterns":[	
+                "where is washroom?",
+                "How to go to washroom?",
+                "where is  girls washroom?",
+                "where is boys washroom?"
+            ],
+            "responses":[
+                "Yes, it is in 2nd floor", 
+                "go to the 2nd floor .",
+                "Go to the left side of the 2nd .", 
+                "Yes wash room is in 2nd floor."
+            ]
+        },
+        {
+            "tag":"carpark",
+            "patterns":[	
+                "Is there a carpark?", 
+                "Where is the carpark?", 
+                "How to go  carpark?",
+                "Can reserve an area in the carpark?"
+            ],
+            "responses":[
+                "Yes we have a car park", 
+                "go to the end of the outdoor.", 
+                "You can park your vehicle with free of charge "
+            ]
+        },
+        {
+            "tag":"diabetes",
+            "patterns":[
+                "Drink water,urinate more often",
+                "higher number of infections",
+                "Fatigue and irritability"
+            ],
+            
+            "responses":[
+                "Checking  Blood Sugar",
+                "Trying an A1C Test",
+                "Weighing  Risk Factors",
+                "When to Seek Medical Care"
+            ]
+        },
+        {
+            "tag":"heart disease",
+            "patterns":[
+                "Angina or chest pain that spreads across the chest",
+                "Shortness of breath",
+                "I have coronary artery is completely blocked",
+                "Faster heartbeat",
+                "Sweating"
+            ],
+            "responses":[
+                "Blood tests for heart disease",
+                "check Total cholesterol",
+                "Heart scans",
+                "When to Seek Medical Care"
+            ]
+        },
+        {
+            "tag":"cholesterol",
+            "patterns":[
+                "Chest pains",
+                "Shortness of breath",
+                " hardened arteries",
+                "Faster heartbeat",
+                "Sweating"
+            ],
+            
+            "responses":[
+                "Blood tests for cholesterol",
+                "check Total cholesterol",
+                "Heart scans",
+                "eat brown rice or white rice "
+            ]
+        },
+        {
+            "tag":"kidney disease",
+            "patterns":[
+                "Loss of appetite",
+                "High blood pressure ",
+                "Shortness of breath ",
+                "Persistent itching",
+                "Fatigue"
+            ],
+            
+            "responses":[
+                "Blood test for GFR",
+                "Urine Test for Albumin"
+            ]
+        },
+        {
+            "tag":"Cirrhosis",
+            "patterns":[
+                "Fatigue, or feeling tired",
+                "Easy bruising or bleeding ",
+                " Lower extremity edema (swelling)",
+                "Sleep disturbance",
+                "Increased abdominal girth",
+                "Yellow-tinted skin and eyes"
+            ],
+            
+            "responses":[
+                "Take medications as directed",
+                "Be prepared for surgical options.",
+                "Get tested for hepatitis B and C.",
+                "Take  current weight into account."
+            ]
+        },
+        {
+            "tag":"blood pressure",
+            "patterns":[
+                "Headache",
+                "Feeling tired",
+                "Faster heartbeat",
+                "Sweating"
+            ],
+            
+            "responses":[
+                "Don’t eat or drink anything 30 minutes",
+                "Put both feet flat  keep your legs uncrossed",
+                "Rest your arm with the cuff on a table at chest height.",
+                "The cuff should be against  bare skin"
+            ]
+        },
+        {
+            "tag":"blood sugar",
+            "patterns":[
+                "headache, Shakiness",
+                "Hunger or nausea",
+                "Dizziness or lightheadedness",
+                "Difficulty concentrating"
+            ],
+            
+            "responses":[
+                "Taking certain medications",
+                "Getting more exercise or physical activity than usual",
+                "cut down on sodium or salt, in the diet..",
+                "Eat good rich in fruits and vegetables."
+            ]
+        },
+        {
+            "tag":"osteoarthritis",
+            "patterns":[
+                "Pain hand, knees, hip",
+                "Tender and warm joints",
+                "Limited range of movement",
+                "Swelling"
+            ],
+            
+            "responses":[
+                "Control blood sugar",
+                "Getting more calcium",
+                "walking,","kneeling or squatting for more than an hour a day."
+            ]
+        },
+        {"tag": "hours",
+            "patterns": [
+                "Opening hours of the cafeteria?",
+                "tell time the cafeteria open",
+                "office canteen opening time"
+            ],
+            "responses": [
+                "It is open from 9:00am-7:30pm"
+            ]
+        },
+        {"tag": "noans",
+            "patterns": [
+                "why",
+                "how",
+                "when",
+                "I",
+                "you",
+                "....."
+
+
+            ],
+            "responses": [
+                "Can't Understand Your Question",
+                "please elaborate your question"]
+        },
+        {"tag": "customer_satisfaction",
+            "patterns": [
+                "how customer response",
+                "Is customer happy?",
+                "what is customer feedback?"
+            ],
+            "responses": [
+                "Customer feel happy and has given good rating"
+            ]
+        },
+        {
+        "tag": "noanswer",
+            "patterns": [
+
+            ],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give  more info", 
+                "Not sure I understand"
+            ]
+        },
+        {"tag": "goodbye",
+            "patterns": [
+                "Bye", 
+                "See you later", 
+                "Goodbye", 
+                "Nice meet to you, bye", 
+                "Till next time"
+            ],
+            "responses": [
+                "See you!", 
+                "Have a nice day", 
+                "Bye! Come back again soon."
+            ]
+        },
+        {"tag": "thanks",
+            "patterns": [
+                "Thanks", 
+                "Thank you", 
+                "That's helpful", 
+                "Awesome, thanks", 
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!", 
+                "Any time!", 
+                "My pleasure"
+            ]
+        },
+        {
+        "tag":"age",
+            "patterns": [
+                "how old",
+                "how old are you?",
+                "tell your age",
+                "age?"
+            ],
+            "responses":[
+                "I get reborn after every compilation",
+                "hey!",
+                "my owners are averagely 20 years!"
+            ]
+        },
+        {
+        "tag":"name",
+            "patterns": [
+           
+                "what should i call you",
+                "what's your name?",
+                "who are you?",
+                "can you tell your name"
+            ],
+            "responses":[
+                "you can call me 5bot!",
+                "i am 5bot!",
+                "i am 5bot medical assistant"
+            ]
+        },
+        {
+        "tag":"common cold symptoms",
+            "patterns": [
+                "Runny or stuffy nose",
+                "Sore throat",
+                "Cough",
+                "Congestion",
+                "Slight body aches or headache",
+                "Sneezing",
+                "Low-grade fever",
+                "Generally feeling unwell (malaise)"
+            ],
+            "responses":[
+                "It seems that suffering from common cold"
+            ]
+        },
+        {
+            "tag":"fever symptoms",
+            "patterns":[
+                "Sweating",
+                "Chills and shivering",
+                "Headache",
+                "Muscle aches",
+                "Loss of appetite",
+                "Irritability",
+                "Dehydration",
+                "General weakness"
+            ],
+            "responses":[
+                "It seems that suffering from fever"
+            ]
+        },
+        {
+        "tag":"Diabetes symptoms",
+            "patterns":[
+                "increased hunger",
+                "increased thirst",
+                "weight loss",
+                "frequent urination",
+                "blurry vision",
+                "extreme fatigue"
+        ],
+            "responses":[
+                "It seems that suffering from Diabetes"
+            ]
+        },
+        {
+        "tag":"Depression symptoms",
+            "patterns":[
+                "Hopeless outlook",
+                "Lost interest",
+                "Increased fatigue",
+                "sleep problem",
+                "Anxiety",
+                "change in weight",
+                "Looking at death"
+            ],
+            "responses":[
+                "It seem that suffering from depression"
+            ]
+        },
+        {
+        "tag":"common cold prevention",
+            "patterns":[
+                " medicines can I buy to  my common cold?",
+                "tell  some prevention for common cold",
+                "What should I eat or drink if i am suffering from common cold?",
+                "How can I keep from getting a cold or the flu?"
+            ],
+            "responses":[
+                "Wash  hands,Avoid touching  face,Clean frequently used surfaces,Use hand sanitizers,"
+            ]
+        },
+        {
+        "tag":"fever prevention",
+            "patterns":[
+                " medicines can I buy to help me with my fever?",
+                "tell  prevention method from fever",
+                " should I eat or drink  suffering from fever?"
+            ],
+            "responses":[
+                " acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max", 
+                "Wash your hands, Cover your mouth when you cough",
+                "Garlic,Vitamin C–containing fruits,Leafy greens"
+            ]
+        },
+        
+        {
+        "tag":"depression prevention",
+            "patterns":[
+                "What medicines can I buy to help me with my depression?",
+                "tell me some prevention method from depression",
+                "What should I eat or drink if i am suffering from depression?",
+                "How can I keep from getting depression?"],
+            "responses":[
+                "medicines you can consume :  brexpiprazole, quetiapine,olanzapine", 
+                "prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage", 
+                "Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+        },
+        {
+        "tag":"asthma prevention",
+            "patterns":[
+                " help me with my asthma?",
+                "tell me some prevention method from asthma",
+                " should  eat or drink if i am suffering from asthma?",
+                "can keep from getting asthma?"
+            ],
+            "responses":[
+                "epinephrine,anticholinergic,Proair HFA",
+                "Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type",
+                "carrots,juice,eggs,broccoli,cantaloupe,milk"
+            ]
+        },
+        {
+        "tag":"Consultation",
+            "patterns": [
+                " should  contact for consultation?",
+                "is there  doctor available?",
+                "can you give me some suggestions for doctor consultations?",
+                "can  meeting with a doctor for consultation?",
+                "is there any doctor available for consultation"],
+            "responses":[
+                "You can contact various doctors here for any kind of consultation",  
+                " you can pay a visit to your local area doctor or family doctor."
+            ]
+        }
+    ]
+}
